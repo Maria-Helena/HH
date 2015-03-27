@@ -26,7 +26,7 @@ ul{
     font-family: fjallaoneregular;
     display: inline;
     padding-right: 8%;
-    font-size: 100%;
+    font-size: 30px;
     text-decoration: none;
     color :black;
 }
@@ -35,17 +35,53 @@ ul{
     text-align: center;
 }
 
-h2 {
+h1 {
     font-family: fjallaoneregular;
     color: firebrick;
     text-align: center;
+    font-size: 60px;
 }
 
 .menu-site p {
     font-family: fjallaoneregular;
 }
 
+.imgfloat  {
+float: left;
+    margin: 5px;
+}
+ .imgfloat2  {
+float: right;
+    margin: 5px;
+}
 
+main p {
+    font-family: fjallaoneregular;
+    font-size: 45px;
+    text-align: justify;
+}
 
+.motimportant {
+    font-family: fjallaoneregular;
+    font-size: 45px;
+    text-align: justify;
+    color: red;
+}
 
+main {
+    margin: 0px 100px 0px 100px;
+}
 
+li img {
+width: 800px;
+}
+
+footer {
+    left: 0;
+    height:100px;
+    width:100%;
+    background-color: #2f2f2f;
+    display: inline;
+    position:sticky;
+    bottom:0;
+    }
